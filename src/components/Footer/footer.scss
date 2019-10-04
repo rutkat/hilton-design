@@ -1,0 +1,21 @@
+.app-footer {
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  bottom: 0;
+  padding: 8px;
+  width: 100%;
+  height: 43px;
+  background: #1c1c1c;
+  color: #FFF;
+
+  /* To prevent footer from covering elements if screen height is restriceted */
+  @media only screen and (max-height: 666px) {
+    position: relative;
+  }
+  @media only screen
+    and (orientation: landscape)
+    and (max-width: 1024px) {
+      position: relative;
+  }
+}

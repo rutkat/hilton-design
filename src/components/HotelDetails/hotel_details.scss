@@ -1,0 +1,46 @@
+$tabletWidth: 768px;
+
+.hotel {
+  &-details {
+    color: #FFF;
+    text-align: center;
+    margin: 0 20px;
+    line-height: 1.5em;
+    position: relative;
+    z-index: 1; /* To prevent footer overlap */
+
+    h3 {
+      font-size: 20px;
+      margin: 0 0 6px;
+    }
+    a[href*="tel"] {
+      color: #98b4cd;
+      text-decoration: underline;
+      span {
+        color: #FFF;
+        text-decoration: none;
+      }
+    }
+    /* Restrict width to prvent image degredation */
+    @media only screen and (min-width: $tabletWidth) {
+      max-width: $tabletWidth - 40;
+      margin: 0 auto;
+    }
+  }
+  &-photo {
+    margin: 18px auto;
+    text-align: center;
+    border: 3px solid #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #000;
+  }
+  &-text {
+    text-align: left;
+    address {
+      color: #98b4cd;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+}

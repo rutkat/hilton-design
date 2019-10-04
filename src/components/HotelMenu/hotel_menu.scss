@@ -1,0 +1,47 @@
+$radius: 6px;
+$linkColor: #172736;
+$fontSize: 16px;
+
+.hotel-menu {
+  width: 100%;
+
+  ul {
+    list-style: none inside;
+    padding: 0;
+  }
+  li {
+    border-top: 1px solid #d0cfcf;
+    border-bottom: 1px solid #e6e6e6;
+    background: rgb(227,231,233);
+    background: linear-gradient(180deg, rgba(227,231,233,1) 0%, rgba(193,206,218,1) 90%);
+    text-align: left;
+    &:first-child {
+      border-top-left-radius: $radius;
+      border-top-right-radius: $radius;
+      border-top: 0;
+    }
+    &:last-child {
+      border-bottom-left-radius: $radius;
+      border-bottom-right-radius: $radius;
+      border-bottom: 0;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: $linkColor;
+      font-size: $fontSize;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 10px 18px;
+    }
+    .arrow-right {
+      border: solid $linkColor;
+      border-width: 0 2px 2px 0;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      float: right;
+    }
+  }
+}
