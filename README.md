@@ -1,5 +1,6 @@
 ## Hotel Hilton Semantic HTML Demo
 Coded by Tom. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Hilton page widths](hilton-responsive-page.gif "Hilton page widths")
 
 ## Assumptions
 1. I build the html, css code within react assuming it would be integrated with the main code base in a real-world environment. The elements are component based including their respective stylesheets.
