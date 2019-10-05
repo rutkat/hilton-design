@@ -1,5 +1,4 @@
 import React from 'react';
-import 'array.prototype.fill';
 import './app.css';
 import Header from './components/Header';
 import HotelDetails from './components/HotelDetails';

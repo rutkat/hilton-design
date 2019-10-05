@@ -8,7 +8,7 @@ function Header() {
     <header className="app-header">
       <NavButton></NavButton>
       <h2>Hotel Details</h2>
-      <a href="https://hilton.com" tabindex="0" className="app-header-link">
+      <a href="https://hilton.com" tabIndex="0" className="app-header-link">
         <img src={logo} className="app-logo" alt="Hilton logo" />
       </a>
     </header>
