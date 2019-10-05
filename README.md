@@ -15,7 +15,7 @@ Coded by Tom. This project was bootstrapped with [Create React App](https://gith
 
 6. I changed the background image format from PNG to JPG in order to reduce file size, 64kb to 20kb without compromising image quality.
 
-7. I set the Hilton logo in the header to be a homepage link in case the use wants to restart.
+7. I set the Hilton logo in the header to be a homepage link in case the user wants to restart.
 
 ## Available Scripts
 
