@@ -17,6 +17,8 @@ Coded by Tom. This project was bootstrapped with [Create React App](https://gith
 
 7. I set the Hilton logo in the header to be a homepage link in case the user wants to restart.
 
+8. I'm aware that css flexbox could have been used for the entire page including the footer, but I chose to demonstrate my knowledge of media queries and absolute positioning.
+
 ## Available Scripts
 
 In the project directory, you can run:
